@@ -6,20 +6,67 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-between;
+    background-color: cyan;
+    padding: 10px;
+    border-bottom: solid blueviolet 4px;
+    margin: 0px;
+    box-shadow: 1px 1px rgb(12, 14, 12);
+}
+.navbar>li{
+    display: flex;
+    align-items: center;
+
 }
 .logo{
-    height: 75px;
+    height: 150px;
 }
-.mainbutton{
-    background-color: blue;
-    color: white;
+.button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
+   
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainbutton{
+    background-color: blue;
     box-shadow: 2px 2px coral;
+    color: white;
+    
 }
 .mainbutton:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+.secondarybutton{
+    background-color: coral;
+    box-shadow: 2px 2px blue;
+    color: white;
+}
+.secondarybutton:hover{
+    cursor: pointer;
+    transform: scale(1.1);   
+}
+.buscar{
+    background-color: white;  
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 8px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar>input{
+    outline: none;
+    border: 0px;
+}
+.margen{
+    margin: 0px;
+}
+.icono:hover{
+    color: blueviolet;
 }
