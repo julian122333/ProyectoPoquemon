@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 75px;
+}
+.mainbutton{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px coral;
+}
+.mainbutton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
