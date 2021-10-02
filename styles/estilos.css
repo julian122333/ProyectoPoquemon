@@ -68,7 +68,7 @@ ul{
     margin: 0px;
 }
 .icono:hover{
-    color: blueviolet;
+    color:forestgreen;
 }
 .contenedorimagen{
     display: flex;
@@ -95,7 +95,7 @@ ul{
 }
 .carta{
     margin: 10px;
-    background-color:cornflowerblue;
+    background-color gray;
     box-shadow: seagreen;
     border-radius: 18px;
     
