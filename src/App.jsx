@@ -56,11 +56,22 @@ function App() {
 
             </ul>
         </section>
-        <section></section>
+        <section>
+
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <cardPoquemones/>
+    </footer>
     </div>
   );
+}
+function cardPoquemones(){
+    return(
+    <div>
+        Hola
+    </div>
+    )
 }
 
 export default App;
