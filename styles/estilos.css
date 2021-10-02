@@ -67,9 +67,7 @@ ul{
 .margen{
     margin: 0px;
 }
-.icono:hover{
-    color:forestgreen;
-}
+
 .contenedorimagen{
     display: flex;
     width: 250px;

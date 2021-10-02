@@ -9,7 +9,7 @@ import zamazenta from './media/zamazenta.png';
 function App() {
   return (
     <div className="App">
-          <header >
+    <header >
         <ul className="navbar">
         <li><img src={caballero}  className="logo"  alt="imagen"/> </li>
         <li> <button className="button mainbutton ">iniciar sesion</button> </li>
