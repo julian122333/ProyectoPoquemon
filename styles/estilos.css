@@ -67,7 +67,9 @@ ul{
 .margen{
     margin: 0px;
 }
-
+.icono:hover{
+    color: blueviolet;
+}
 .contenedorimagen{
     display: flex;
     width: 250px;
@@ -93,7 +95,8 @@ ul{
 }
 .carta{
     margin: 10px;
-    background-color gray;
+    background-color:cornflowerblue;
+    box-shadow: seagreen;
     border-radius: 18px;
     
 }

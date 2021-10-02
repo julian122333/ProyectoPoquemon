@@ -62,16 +62,24 @@ function App() {
     </main>
     <footer>
         <cardPoquemones/>
+        <cardPoquemones/>
+        <cardPoquemones/>
     </footer>
     </div>
   );
 }
 function cardPoquemones(){
     return(
-    <div>
-        Hola
-    </div>
-    )
+        <li className="carta"> 
+        <div className="contenedorimagen">
+            <img src={zamazenta}   alt="zamazenta"/> 
+        </div>
+        <span className="titulocarta">
+            zamazenta
+
+        </span>
+        </li>
+    );
 }
 
 export default App;
