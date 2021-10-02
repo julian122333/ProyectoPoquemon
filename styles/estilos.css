@@ -70,3 +70,40 @@ ul{
 .icono:hover{
     color: blueviolet;
 }
+.contenedorimagen{
+    display: flex;
+    width: 250px;
+}
+.contenedorimagen:hover{
+    display: flex;
+    width: 250px;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.contenedorimagen>img{
+    object-fit: contain;
+    width: 100%;
+    border-top-left-radius: 10px;
+}
+
+
+.contenedorcartas{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.carta{
+    margin: 10px;
+    background-color:cornflowerblue;
+    box-shadow: seagreen;
+    border-radius: 18px;
+    
+}
+.titulocarta{
+    color: aliceblue;
+    margin: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
